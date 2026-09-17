@@ -14,7 +14,7 @@ public class TreeApp3 {
 	//	System.out.println("Parent = " + tree.getParent().data);
 		System.out.println("-----------------------------------");
 		
-		int target = 100;
+		int target = 25;
 		tree.delete(target);
 		tree.printTree(tree.getRoot(), 0);
 		
